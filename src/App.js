@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './components/Header.js';
+import Main from './components/Main.js';
 
 function App() {
   return (
     <>
-      <h1>Hello from react</h1>
+      <Header header='Look at these Beasts!' />
+      <Main />
     </>
   );
 }
